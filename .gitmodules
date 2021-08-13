@@ -1,0 +1,4 @@
+[submodule "cv_template"]
+	path = cv_template
+	url = https://github.com/bodqhrohro/cv_template.git
+	branch = hlaford

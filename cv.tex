@@ -1,0 +1,161 @@
+\documentclass[a4paper]{article}
+%\usepackage{showframe}
+
+\input{cv_template/cv_template.sty}
+
+\def\PhotoFilename{photo.png}
+\def\ShortName{B.~Horbeshko}
+\def\FullName{Bohdan~Horbeshko}
+\def\Occupation{software developer}
+
+\def\BirthDate{06.10.1995}
+
+\begin{document}
+\PrintCVHead
+\setlength\charbase{45mm}
+
+\cap{Programming languages and technologies}
+
+\chars{5}{JS}{Since 2011: ES5/ES6, JSX, MSHTA}
+
+{\setlength{\tabcolsep}{0cm}
+\noindent
+\begin{tabular}{p{0.5\textwidth}p{0.5\textwidth}}
+
+\subchar{5}{jQuery}
+
+\subchar{4}{Node.JS}
+
+\subchar{3}{React}
+
+\subchar{3}{Express} &
+
+\subchar{3}{Kendo UI}
+
+\subchar{3}{Phaser 2}
+
+\subchar{2}{Backbone/Chaplin}
+
+\subchar{2}{Angular 1/2}
+\end{tabular}%
+}
+
+\chars{5}{PHP}{Since 2012: PHP 5/7, OOP, PDO}
+
+\subchar{3}{Yii 1}
+
+\subchar{4}{MPDF}
+
+\subchar{3}{Wordpress}
+%
+%\subchar{1}{FluentPDO}
+
+\chars{5}{Bash}{Since 2013: GNU Coreutils and other CLI tools: Imagemagick,\\ FFmpeg, csvutils, etc.}
+
+\chars{3}{Java}{Since 2012: J2ME, Android, Swing, Spring, Ant, Maven}
+
+\chars{3}{C}{Since 2012: simple applications}
+
+\chars{3}{Python}{Since 2016: small data processing scripts, the diploma project (web craw\-ling~\&~ML), websites (Django~1/2), image processing}
+
+\chars{3}{Go}{Since 2019: instant messaging}
+
+\chars{2}{Lua}{Since 2015: Telos Z/IPStream filters, game scripting}
+
+\chars{2}{Perl}{Since 2019: tiny scripts, tests}
+
+\vfill
+Also interested in C++, Rust, GLSL.
+
+\cap{DBMS}
+
+{\setlength{\tabcolsep}{0cm}
+\noindent
+\begin{tabular}{*{4}{p{0.25\textwidth}}}
+
+\chars{4}{MySQL}{} &
+
+\chars{2}{PostgreSQL}{} &
+
+\chars{1}{SQLite}{} &
+
+\chars{1}{MongoDB}{} \\
+
+\end{tabular}%
+}
+
+\cap{Layout}
+
+\chars{5}{HTML5~+ CSS3}{Fluid and adaptive layouts; pixel perfect; Flexbox, Grid; Bootstrap, Foundation}
+
+\chars{4}{\LaTeX}{Since 2013: \LaTeX, \XeTeX, TikZ, PGFplots, low-level \TeX, macros development. This CV is built with \XeTeX, by the way}
+
+\cap{Administrating}
+
+\chars{5}{Debian~/ Ubuntu}{Apache/Nginx, php-fpm, SSH, GitLab, Prosody, MySQL, PostgreSQL, etc.; power Debian user since 2013}
+
+\cap{Participating in projects}
+
+\briefchars{Booquotter}{Improved API of an e-book reader application for Android; a team of 4~members, 2~months term, got a certificate from \href{http://ua.sigma.software/}{SIGMA Software}}
+
+\cap{Job experience}
+
+\briefchars{11.2015--4.2016\ensp}{\href{http://intersog.com}{INTERSOG Inc.} (Front-End Developer)\\%
+Wordpress plugin (React, PHP); data mining with Bash, Python, csvutils.}
+
+\smallskip
+\briefchars{8.2016--7.2018\ensp}{\href{https://youcontrol.com.ua/ru/catalog/company_details/37954063/}{ТОВ БУД-СОФТ} (PHP/JS Developer with mathematical bias)\\%
+Brought to life several PHP/JS projects involving vector algebra, graph theory, financial data.}
+
+\smallskip
+\briefchars{1.2019--10.2019\ensp}{\href{https://kinesioprofi.ru/}{Академия медицинской кинезиологии Васильевой} (Typesetter)\\%
+\XeTeX\ typesetting of books with a shared automated storage; setting up GitLab CI; Perl/Python automation; web calendar development (JS, CSS Grids).}
+
+\smallskip
+\briefchars{11.2019--}{\href{https://narayana.im/about}{Narayana O\"{U}} (Developer)\\%
+Development of messaging bridge software in Golang, Python, C++.}
+
+\begin{multicols}{2}
+\setcounter{unbalance}{2}
+
+\cap{Natural languages}
+
+\briefchars{Ukrainian}{Native}
+
+\briefchars{Russian}{Native}
+
+\briefchars{English}{Intermediate}
+
+\cap{VCS}
+
+\chars{4}{Git}{}
+
+\chars{2}{Mercurial}{}
+
+\chars{1}{SVN}{}
+
+\cap{Contacts and links}
+
+% anti-spam
+\briefchars{Phone~/ Viber}{%
+ \href{tel:+\the\numexpr 761 * 50\relax%
+ \the\numexpr 290 * 41 * 251%
+ }{+380 (\the\numexpr 128 - 78\relax)
+ \the\numexpr 3427 / 23 * 2\relax%
+ -\the\numexpr 35991 / 31 / 27\relax%
+ -\the\numexpr 8100 * 3 / 9 * 3 / 90\relax%
+}}
+
+\briefchars{E-mail}{\href{mailto:bodqhrohro@gmail.com}{bodqhrohro@gmail.com}}
+
+\briefchars{Skype}{\href{skype:bodqhrohro?chat}{bodqhrohro}}
+
+\briefchars{Telegram}{\href{https://t.me/bodqhrohro/}{bodqhrohro}}
+
+\briefchars{GitHub}{\href{https://github.com/bodqhrohro/}{bodqhrohro}}
+
+\briefchars{Bitbucket}{\href{https://bitbucket.org/bodqhrohro/}{bodqhrohro}}
+
+\end{multicols}
+
+\end{document}
